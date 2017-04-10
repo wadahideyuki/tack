@@ -412,9 +412,9 @@ border-right:1px solid #FDB9B9;
 	border:none;
 }
 #contents .baBox .box{
-	float:left;
 	text-align:center;
 }
+	#contents .baBox .box + .box{margin-top: 15px;}
 
 #contents  .baBox p{
 	text-align:center;

@@ -1,6 +1,6 @@
 /**common**/
 body{
-	background:url(../img/bg.jpg) repeat-x;
+	border-top: 2px solid rgba(229,9,9,1.00);
 }
 #wrapper{
 	margin:0 auto;
@@ -13,10 +13,19 @@ body{
 	display:none;
 }
 #header{
-	height:94px;
+	height:45px;
 	position:relative;
-	width:960px;
 	margin:0 auto;
+	width: 100%;
+}
+#header .menuBtn{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#header img{
+	height: 45px;
+	width: auto;
 }
 #header .tel{
 	position:absolute;
@@ -24,22 +33,27 @@ body{
 	right:0px;
 }
 #header #navi{
-	position:absolute;
-	left: 191px;
-	top: 61px;
-	width: 768px;
-	border-right:1px solid #CCC;
+	display: none;
 }
 
 #header #navi li{
-	float:left;
-	text-align:center;
-	width:126px;
+	text-align:left;
+	background: #FFF;
+	border-top: 1px solid #CCC;
 	border-left:1px solid #CCC;
 	
 }
 #header #navi li a{
-	color:#333;
+	color:#FFF;
+	display: block;
+	background: rgba(246,21,18,1.00) url(../img/arrow_white.png) no-repeat 98% center;
+	padding: 3%;
+}
+#header #navi li .menuInner a{
+	color:#000;
+	display: block;
+	background: #FFF;
+	padding: 3%;
 }
 #header .summary{
 	font-size:11px;

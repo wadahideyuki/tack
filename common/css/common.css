@@ -125,8 +125,9 @@ body{
 }
 
 #pankuz{
-	padding:5px 0 5px 0;
+	padding:5px;
 	font-size:10px;
+	line-height: 1.4;
 	box-shadow:0 0 3px #A89D88;
 }
 
@@ -240,6 +241,7 @@ body{
 	display: block;
 	background:#CC0706;
 	padding:10px 15px;
+	line-height: 1.4;
 	border-radius: 6px;
 	border: 2px solid #fff;
 }
@@ -290,6 +292,7 @@ body{
 	font-weight:bold;
 	margin:0px;
 	border-left:none;
+	line-height: 1.4;
 }
 
 #contents table{

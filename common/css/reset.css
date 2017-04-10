@@ -118,57 +118,57 @@ a:hover{
 	padding-left:15px;
 }
 
-.PR5{padding-right: 5px;}
-.PR10{padding-right: 10px;}
-.PR15{padding-right: 15px;}
-.PR20{padding-right: 20px;}
-.PR25{padding-right: 25px;}
-.PR30{padding-right: 30px;}
+.PR5{padding-right: 5px !important;}
+.PR10{padding-right: 10px !important;}
+.PR15{padding-right: 15px !important;}
+.PR20{padding-right: 20px !important;}
+.PR25{padding-right: 25px !important;}
+.PR30{padding-right: 30px !important;}
 
-.PL5{padding-left: 5px;}
-.PL10{padding-left: 10px;}
-.PL15{padding-left: 15px;}
-.PL20{padding-left: 20px;}
-.PL25{padding-left: 25px;}
-.PL30{padding-left: 30px;}
+.PL5{padding-left: 5px !important;}
+.PL10{padding-left: 10px !important;}
+.PL15{padding-left: 15px !important;}
+.PL20{padding-left: 20px !important;}
+.PL25{padding-left: 25px !important;}
+.PL30{padding-left: 30px !important;}
 
-.PB5{padding-bottom: 5px;}
-.PB10{padding-bottom: 10px;}
-.PB15{padding-bottom: 15px;}
-.PB20{padding-bottom: 20px;}
-.PB25{padding-bottom: 25px;}
-.PB30{padding-bottom: 30px;}
+.PB5{padding-bottom: 5px!important;}
+.PB10{padding-bottom: 10px!important;}
+.PB15{padding-bottom: 15px!important;}
+.PB20{padding-bottom: 20px!important;}
+.PB25{padding-bottom: 25px!important;}
+.PB30{padding-bottom: 30px!important;}
 
-.PT5{padding-top: 5px;}
-.PT10{padding-top: 10px;}
-.PT15{padding-top: 15px;}
-.PT20{padding-top: 20px;}
-.PT25{padding-top: 25px;}
-.PT30{padding-top: 30px;}
+.PT5{padding-top: 5px!important;}
+.PT10{padding-top: 10px!important;}
+.PT15{padding-top: 15px!important;}
+.PT20{padding-top: 20px!important;}
+.PT25{padding-top: 25px!important;}
+.PT30{padding-top: 30px!important;}
 
-.font8{font-size: 8px;}
-.font9{font-size: 9px;}
-.font10{font-size:10px;}
-.font11{font-size:11px;}
-.font12{font-size:12px;}
-.font13{font-size:13px;}
-.font14{font-size:14px;}
-.font15{font-size:15px;}
-.font16{font-size:16px;}
-.font17{font-size:17px;}
-.font18{font-size:18px;}
-.font19{font-size:19px;}
-.font20{font-size:20px;}
-.font21{font-size:21px;}
-.font22{font-size:22px;}
-.font23{font-size:23px;}
-.font24{font-size:24px;}
-.font25{font-size:25px;}
-.font26{font-size:26px;}
-.font27{font-size:27px;}
-.font28{font-size:28px;}
-.font29{font-size:29px;}
-.font30{font-size:30px;}
+.font8{font-size: 8px!important;}
+.font9{font-size: 9px!important;}
+.font10{font-size:10px!important;}
+.font11{font-size:11px!important;}
+.font12{font-size:12px!important;}
+.font13{font-size:13px!important;}
+.font14{font-size:14px!important;}
+.font15{font-size:15px!important;}
+.font16{font-size:16px!important;}
+.font17{font-size:17px!important;}
+.font18{font-size:18px!important;}
+.font19{font-size:19px!important;}
+.font20{font-size:20px!important;}
+.font21{font-size:21px!important;}
+.font22{font-size:22px!important;}
+.font23{font-size:23px!important;}
+.font24{font-size:24px!important;}
+.font25{font-size:25px!important;}
+.font26{font-size:26px!important;}
+.font27{font-size:27px!important;}
+.font28{font-size:28px!important;}
+.font29{font-size:29px!important;}
+.font30{font-size:30px!important;}
 
 .fontGreen{color:#060;}
 .fontRed{color:#C00;}

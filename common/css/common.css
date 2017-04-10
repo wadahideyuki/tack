@@ -384,7 +384,7 @@ body{
 	padding:15px 10px;
 	text-align:center;
 }
-#contents .hiketsuBox .btnArea a{
+#contents a.btn.is_type1{
 	display: block;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.88, #003603), color-stop(0.00, #098E21));
 	background: -webkit-linear-gradient(top, #098E21 0%, #003603 88%);
@@ -395,9 +395,10 @@ body{
 	padding: 5px;
 	color: #fff;
 	border-radius: 5px;
+	text-align: center;
 	box-shadow: 0 3px 3px -3px rgba(0,0,0,0.9);
 }
-#contents .hiketsuBox .btnArea a:after{
+#contents a.btn.is_type1:after{
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
@@ -405,7 +406,7 @@ body{
 	border-width:10px 0 10px 10px;
 	border-color:transparent transparent transparent #fff;
 }
-#contents .hiketsuBox .btnArea a span{
+#contents a.btn.is_type1 span{
 	display: inline-block;
 	width: 80%;
 	vertical-align: middle;

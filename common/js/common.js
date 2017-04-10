@@ -7,6 +7,10 @@ $(function(){
 	 $(this).fadeTo(100,1)
 	});
 	
+	$(".menuBtn").click(function(){
+		$("#navi").slideToggle();
+		
+	})
 	$(window).scroll(function(){
 		var sclNum = $(window).scrollTop();
 		if(sclNum > 100){

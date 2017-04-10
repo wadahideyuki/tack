@@ -1,0 +1,8 @@
+
+
+AddOutputFilter INCLUDES .html
+
+AuthUserFile /home/sites/heteml/users26/b/u/s/buskers/web/wadakoubou.com/fani/.htpasswd 
+AuthName "Member Site"
+AuthType BASIC
+require valid-user

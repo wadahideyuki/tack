@@ -259,20 +259,12 @@ body{
 
 #contents h1{
 	background:#CC0706;
-	margin-bottom: 10px;
-	padding: 1px;
+	margin:0 -10px 10px;
+	padding:10px;
 	color:#FFF;
 	font-size:18px;
 	font-weight: bold;
-	border-radius: 8px;
-}
-#contents h1 > span{
-	display: block;
-	background:#CC0706;
-	padding:10px 15px;
 	line-height: 1.4;
-	border-radius: 6px;
-	border: 2px solid #fff;
 }
 #contents h2{
 /*	background:url(../img/h2_bg.png) no-repeat;*/
@@ -305,7 +297,6 @@ body{
 	font-weight: bold;
 }
 #contents .mainCopy em{
-	display: block;
 	color: #CC0706;
 	font-size: 18px;
 	font-weight:inherit;

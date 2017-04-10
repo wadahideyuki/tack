@@ -281,7 +281,6 @@ body{
 	font-weight: bold;
 }
 #contents .mainCopy em{
-	display: block;
 	color: #CC0706;
 	font-size: 18px;
 	font-weight:inherit;

@@ -25,7 +25,10 @@ $(function(){
 		$(".flowThumb a").removeClass();
 		$(this).addClass("selected")
 		var flowImg = $(this).attr("href");
-		$(".flowPhoto").attr("src",flowImg);
+		$(".flowPhoto dt img").attr("src",flowImg);
+		var No = $(this).parent().attr("class").replace("thumNo", "");
+		$(".flowPhoto dd").removeClass("selected");
+		$(".flowPhoto dd.photoTxt" + No).addClass("selected");
 		return false;
 	})
 	

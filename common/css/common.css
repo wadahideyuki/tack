@@ -4,13 +4,27 @@ body{
 }
 #wrapper{
 	margin:0 auto;
-	padding-top:3px;
 }
 .totop{
 	position:fixed;
 	bottom:0px;
 	right:0px;
 	display:none;
+}
+.fixBtn{
+	background: rgba(225,0,3,0.93);
+	padding: 0 1%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+.fixBtn li{
+	display: table-cell;
+	padding: 2% 1%;
+}
+
+.fixBtn li img{
+	width: 100%;
 }
 #header{
 	height:45px;
@@ -34,13 +48,14 @@ body{
 }
 #header #navi{
 	display: none;
+    position: relative;
+    z-index: 9999;
 }
 
 #header #navi li{
 	text-align:left;
 	background: #FFF;
-	border-top: 1px solid #CCC;
-	border-left:1px solid #CCC;
+	border-top: 1px solid #FFF;
 	
 }
 #header #navi li a{
@@ -63,8 +78,9 @@ body{
 	color:#999;
 }
 #footer{
-	background:#C00;
-	margin-top:20px;
+	background:#666;
+	margin-top:0px;
+	padding-bottom: 10vh;
 }
 #footer .footInner{
 	margin:0 auto;
@@ -72,7 +88,7 @@ body{
 }
 #footer .footInner p{
 	color:#FFF;
-	font-size:12px;
+	font-size:11px;
 }
 #sitemap{
 	background:url(../img/foot_bg.gif) repeat-x;
@@ -141,7 +157,7 @@ body{
 	padding:5px;
 	font-size:10px;
 	line-height: 1.4;
-	box-shadow:0 0 3px #A89D88;
+	border-top: 1px solid #CCC;
 }
 
 /**SIDENAVI**/

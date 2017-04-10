@@ -1,4 +1,4 @@
-
+<!--
 	<div id="sideNavi">
 		<div class="sideBox">
 			<h2 class="sMenu"><img src="/common/img/side_ttl_01.png" width="108" height="38"></h2>
@@ -24,4 +24,4 @@
 			<p>タックでは東京、埼玉、千葉、神奈川の１都3県を中心にサービスを提供させて頂いています。現地にお伺いして作業をするパターン、椅子ソファーを持ち帰って作業をするパターンの両方に対応しております。</p>
 			<div class="sideBtn"><a href="http://www.tack-ic.jp/info/inquiry.html"><img src="/common/img/side_btn.png" width="174" height="45" class="hover"></a></div>
 		</div>
-	</div>	
+	</div>	-->

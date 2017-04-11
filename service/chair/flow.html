@@ -8,10 +8,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../common/js/slick.min.js"></script>
 <script type="text/javascript" src="../../common/js/common.js"></script>
 <link rel="canonical" href="http://www.tack-ic.jp/service/chair/flow.html"/>
 <link rel="stylesheet" href="../../common/css/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../common/css/slick.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../common/css/slick-theme.css" type="text/css" media="all" />
 <link rel="stylesheet" href="../../common/css/common.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <!--[if IE 6]>
@@ -73,25 +76,46 @@
 			</div>
 
 			<h2>作業工程</h2>
-			<dl class="flowPhoto">
-				<dt><img src="img/flow_ph_01.jpg" alt="" /></dt>
-				<dd class="photoTxt01 selected"><strong>1.作業前</strong>椅子の座面や背もたれに汚れが目立ちます</dd>
-				<dd class="photoTxt02"><strong>2.洗浄液吹付け</strong>タックが独自に厳選した椅子クリーニング用の洗浄液スプレーを吹き付けします。</dd>
-				<dd class="photoTxt03"><strong>3.ブラシによる洗い出し</strong>丁寧にブラシで汚れを洗い出しします。</dd>
-				<dd class="photoTxt04"><strong>4.汚れの吸引</strong>アメリカ Us PRODUCTS社製の最新クリーニング機器によって汚れを吸引します。</dd>
-				<dd class="photoTxt05"><strong>5.仕上げ</strong>ダスターを使って丁寧に仕上げ作業をおこないます。</dd>
-				<dd class="photoTxt06"><strong>6.完成</strong>経年変化で目立っていた汚れがきれいになっています。</dd>
-			</dl>
-
-			<ul class="flowThumb clearfix" >
-				<li class="thumNo01"><a href="img/flow_ph_01.jpg" class="selected"><img src="img/flow_thumb_01.jpg" alt="" >工程1</a></li>
-				<li class="thumNo02"><a href="img/flow_ph_02.jpg"><img src="img/flow_thumb_02.jpg" alt="">工程2</a></li>
-				<li class="thumNo03"><a href="img/flow_ph_03.jpg"><img src="img/flow_thumb_03.jpg" alt="" >工程3</a></li>
-				<li class="thumNo04"><a href="img/flow_ph_04.jpg"><img src="img/flow_thumb_04.jpg" alt="">工程4</a></li>
-				<li class="thumNo05"><a href="img/flow_ph_05.jpg"><img src="img/flow_thumb_05.jpg" alt="" >工程5</a></li>
-				<li class="thumNo06"><a href="img/flow_ph_06.jpg"><img src="img/flow_thumb_06.jpg" alt="">工程6</a></li>
+			<ul class="slickFlow">
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_01.jpg" alt="" /></dt>
+						<dd><strong>1.作業前</strong>椅子の座面や背もたれに汚れが目立ちます</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_01.jpg" alt="" /></dt>
+						<dd><strong>2.洗浄液吹付け</strong>タックが独自に厳選した椅子クリーニング用の洗浄液スプレーを吹き付けします。</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_02.jpg" alt="" /></dt>
+						<dd><strong>3.ブラシによる洗い出し</strong>丁寧にブラシで汚れを洗い出しします。</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_03.jpg" alt="" /></dt>
+						<dd><strong>4.汚れの吸引</strong>アメリカ Us PRODUCTS社製の最新クリーニング機器によって汚れを吸引します。</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_04.jpg" alt="" /></dt>
+						<dd><strong>5.仕上げ</strong>ダスターを使って丁寧に仕上げ作業をおこないます。</dd>
+					</dl>
+				</li>
+				<li>
+					<dl class="flowPhoto">
+						<dt><img src="img/flow_ph_05.jpg" alt="" /></dt>
+						<dd><strong>6.完成</strong>経年変化で目立っていた汚れがきれいになっています。</dd>
+					</dl>
+				</li>
 			</ul>
-			<p class="alignR font10">※写真をクリックすると各工程をご覧いただけます。</p>
+
+			<p class="alignR font10 PT10">※写真をクリックすると各工程をご覧いただけます。</p>
 			
 		</div>
 	<!--//contentsInner-->

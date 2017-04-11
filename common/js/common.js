@@ -21,17 +21,14 @@ $(function(){
 	});
 	
 	//作業工程
-	$(".flowThumb a").click(function(){
-		$(".flowThumb a").removeClass();
-		$(this).addClass("selected")
-		var flowImg = $(this).attr("href");
-		$(".flowPhoto dt img").attr("src",flowImg);
-		var No = $(this).parent().attr("class").replace("thumNo", "");
-		$(".flowPhoto dd").removeClass("selected");
-		$(".flowPhoto dd.photoTxt" + No).addClass("selected");
-		return false;
-	})
-	
+	$(".slickFlow").slick({
+		arrows:false,
+		slidesToShow:1,
+		slidesToScroll:1,
+		adaptiveHeight:true
+	});
+
+
 	//スクロール
 	$(".scl").click(function(){
 		var speed = 400;// ミリ秒

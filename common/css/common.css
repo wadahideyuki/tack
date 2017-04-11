@@ -1,6 +1,7 @@
 /**common**/
 body{
 	border-top: 2px solid rgba(229,9,9,1.00);
+	-webkit-text-size-adjust: 100%;
 }
 #wrapper{
 	margin:0 auto;

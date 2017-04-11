@@ -475,11 +475,12 @@ border-right:1px solid #FDB9B9;
 
 /**作業工程**/
 .flowPhoto{
+	background-color: #CE0807;
 }
-.flowPhoto dt{
+.flowPhoto dt img{
+	display: block;
 }
 .flowPhoto dd{
-	background-color: #CE0807;
 	padding: 10px;
 	color: #fff;
 }

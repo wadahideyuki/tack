@@ -8,12 +8,9 @@
 	position:relative;
 }
 .boxMake p{
-	padding:0 280px 10px 0;
+	padding:0 0px 10px 0;
 }
 .boxMake .ph1{
-	position:absolute;
-	left: 424px;
-	top: -15px;
 }
 .brandList{
 	padding:0 10px 20px 10px;
@@ -63,3 +60,68 @@
 	border-bottom:1px solid #F66;
 	padding-bottom:20px;
 }
+
+.boxTiming{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.boxTiming dl{
+	background-color: #ECE8E0;
+	margin-bottom: 15px;
+	text-align: center;
+	border: 1px solid #FB7474;
+	border-radius: 5px;
+	box-shadow: 0 6px 3px -3px rgba(0,0,0,0.3);
+}
+.boxTiming dt{
+	background-color: #FB7474;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+.boxTiming dd{
+	padding: 10px 0px;
+	letter-spacing: -0.4em;
+}
+.boxTiming dd div{
+	display: inline-table;
+	margin: 0 3px;
+	vertical-align: top;
+}
+.boxTiming dd span{
+	display: table-cell;
+	background-color: #fff;
+	width: 85px;
+	height: 85px;
+	color: #FB7474;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 1.4;
+	letter-spacing: normal;
+	border: 3px solid #FB7474;
+	border-radius: 50%;
+}
+.boxTiming hr{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width:15px 25px 0;
+	border-color: #CC0706 transparent transparent;
+}
+.boxTiming p{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.boxTiming p em{
+	color: #CC0706;
+	font-size: 20px;
+	font-weight:inherit;
+}
+
+
+
+
+

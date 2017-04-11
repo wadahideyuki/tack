@@ -5,6 +5,7 @@
 <title>椅子ソファークリーニングのよくある質問と回答</title>
 <meta name="keywords" content="椅子,クリーニング,よくある質問,Q&A,回答">
 <meta name="description" content="お客様からよくいただく質問とその答えをご紹介します">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -13,12 +14,17 @@
 <link rel="stylesheet" href="../common/css/reset.css" type="text/css" media="all" />
 <link rel="stylesheet" href="../common/css/common.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--[if IE 6]>
-	<script type="text/javascript" src="/common/js/DD_belatedPNG_0.0.8a-min.js"></script>
-	<script>
-		DD_belatedPNG.fix('img, .png_bg');
+<script>
+	
+	$(function(){
+		//FAQ
+	$("#faq dt").click(function(){
+		$(this).next().slideToggle();
+	})
+	
+	})
+	
 	</script>
-<![endif]-->
 </head>
 <body id="faq">
 <div id="wrapper">	
@@ -67,7 +73,7 @@
 				<dt>ものが壊れた場合は？</dt>
 				<dd>当社の過失による場合は、すみやかに賠償させていただきます。万一の事故に備えて請負賠償保険に加入しておりますので、ご安心ください。</dd>
 			</dl>
-</div>
+		</div>
 	</div>
 	<!--//contentsInner-->
 	

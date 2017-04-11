@@ -24,5 +24,9 @@
 	<li class="voice"><a href="/sp/voice/voice1/">お客様の声</a></li>
 	<li class="qa"><a href="/sp/info/faq.html">よくある質問</a></li>
 	<li class="company"><a href="/sp/info/company.html">会社概要</a></li>
+	<li class="voice"><a href="/sp/info/advice.html">お掃除アドバイス</a></li>
+	<li class="voice"><a href="/sp/info/demo.html">無料椅子クリーニングデモ</a></li>
+	<li class="company"><a href="/sp/info/link.html">リンクについて</a></li>
+	<li class="company"><a href="/sp/info/sitemap.html">サイトマップ</a></li>
 </ul>
 </div>

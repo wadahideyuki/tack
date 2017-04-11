@@ -20,13 +20,6 @@ $(function(){
 		}
 	});
 	
-	//ì‹ÆH’ö
-	$(".slickFlow").slick({
-		arrows:false,
-		slidesToShow:1,
-		slidesToScroll:1,
-		adaptiveHeight:true
-	});
 
 
 	//ƒXƒNƒ[ƒ‹
@@ -37,7 +30,5 @@ $(function(){
 		var position = target.offset().top;
 		$($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, speed, 'swing');
 	})
-	
-	
 	
 })

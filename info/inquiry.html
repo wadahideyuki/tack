@@ -9,6 +9,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajaxzip3.github.io/ajaxzip3.js" charset="utf-8"></script>
 <script type="text/javascript" src="../common/js/common.js"></script>
 <link rel="canonical" href="http://www.tack-ic.jp/info/inquiry.html"/>
 <link rel="stylesheet" href="../common/css/reset2.css" type="text/css" media="all" />
@@ -60,29 +61,28 @@
 					<tbody>
 						<tr>
 							<th bgcolor="#EFEFEF" width="141"><div align="left">お名前★　</div></th>
-							<td bgcolor="#FFFFFF" width="368"><input name="お名前" size="20" type="text">
-								例:山田太郎 </td>
+							<td bgcolor="#FFFFFF" width="368"><input name="お名前" size="20" type="text" placeholder="例:山田太郎 "></td>
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">フリガナ★　</div></th>
-							<td bgcolor="#FFFFFF"><input name="フリガナ" size="20" type="text">
-								例:ヤマダタロウ </td>
+							<td bgcolor="#FFFFFF"><input name="フリガナ" size="20" type="text" placeholder="例:ヤマダタロウ"></td>
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">住所★</div></th>
-							<td bgcolor="#FFFFFF">〒
-								<input name="〒" id="〒" size="10">
-								<br>
-								都道府県 <br>
-								住所
-								<input name="住所" id="住所" size="30">
-								<br>
-								例:墨田区横川2-17-9タックビル</td>
+							<td bgcolor="#FFFFFF">
+                             <div class="PB10">〒 <input type="text" name="郵便番号" onKeyUp="AjaxZip3.zip2addr(this,'','住所','住所');" size="10"></div>
+                              
+                              住所
+<input type="text" name="住所" size="30" placeholder="例:東京都墨田区横川2-17-9タックビル">
+							
+							
+							
+							</td>
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">電話番号</div></th>
-							<td bgcolor="#FFFFFF"><input name="電話番号" size="20" type="text">
-								例：03-5819-0961</td>
+							<td bgcolor="#FFFFFF"><input name="電話番号" size="20" type="text" placeholder="例：03-5819-0961">
+								<br></td>
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">ファックス番号</div></th>
@@ -90,17 +90,19 @@
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">E-mail★ (半角英数) </div></th>
-							<td bgcolor="#FFFFFF"><input name="E-mail" size="25" type="text">
-								例：info@tack-ic..jp</td>
+							<td bgcolor="#FFFFFF"><input name="E-mail" size="25" type="text" placeholder="例：info@tack-ic..jp"></td>
 						</tr>
 						<tr>
 							<th bgcolor="#EFEFEF"><div align="left">現場種類 </div></th>
 							<td bgcolor="#FFFFFF"><input name="現場種類[]" value="一軒家" type="checkbox">
 								一軒家
-								<input name="現場種類[]" value="マンション" type="checkbox">
+								  <br>
+							    <input name="現場種類[]" value="マンション" type="checkbox">
 								マンション
+								<br>
 								<input name="現場種類[]" value="店舗" type="checkbox">
 								店舗
+								<br>
 								<input name="現場種類[]" value="オフィス" type="checkbox">
 								オフィス</td>
 						</tr>
@@ -155,58 +157,7 @@
 </div>
 
 <!-- ▽フッタ -->
-<div id="footer">
-		<div class="footInner"> 
-			<p>カーペット・椅子ソファークリーニングなら株式会社タック 〒130-0003　東京都墨田区横川2-17-9 タックビル 　E-mail：<a href="mailto:info@tack-ic.jp" style="color:#FFF;">info@tack-ic.jp</a></p>
-		</div>
-	</div>
-<div id="sitemap">
-	<div id="sitemapInner" class="clearfix" style="position:relative;">
-	<ul class="ttl">
-	<li class="PB10"><img src="/common/img/foot_logo.gif" width="126" height="71"></li>
-	<li><a href="http://www.tack-ic.jp/" class="cate">椅子やソファーのクリーニングはタックHOME</a></li>
-	</ul>	
-	<ul>
-	<li><a href="http://www.tack-ic.jp/service/" class="cate">サービス一覧</a></li>
-	<li><a href="http://www.tack-ic.jp/service/chair/" >椅子クリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/sofa/" >ソファークリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/carpet/" >カーペットクリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/air/" >エアコンクリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/braind/" >ブラインドクリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/other/" >その他クリーニング</a></li>
-	<li><a href="http://www.tack-ic.jp/service/re_chair/" >椅子・ソファー張替え</a></li>
-	<li><a href="http://www.tack-ic.jp/service/re_carpet/" >カーペット再染色サービス</a></li>
-	</ul>	
-	<ul>
-	<li><a href="http://www.tack-ic.jp/point/point1/" class="cate">Tackの特徴</a></li>
-	<li><a href="http://www.tack-ic.jp/point/point1/" >椅子ソファークリーニングの専門家</a></li>
-	<li><a href="http://www.tack-ic.jp/point/point2/" >洗剤と最新マシン</a></li>
-	<li class="PB15"><a href="http://www.tack-ic.jp/point/point3/" >価格</a></li>
-	<li><a href="http://www.tack-ic.jp/voice/voice1/" class="cate">お客様の声</a></li>
-	<li><a href="http://www.tack-ic.jp/voice/voice1/" >エルセルモ</a></li>
-	<li><a href="http://www.tack-ic.jp/voice/voice2/" >ラン・トラスト</a></li>
-	<li><a href="http://www.tack-ic.jp/voice/voice3/" >レストランTR</a></li>
-	</ul>	
-	<ul class="lineH">
-	<li><a href="http://www.tack-ic.jp/info/inquiry.html" class="cate">お問い合わせ・お見積り</a></li>
-	<li><a href="http://www.tack-ic.jp/info/flow.html" class="cate">ご利用の流れ</a></li>
-	<li><a href="http://www.tack-ic.jp/info/faq.html" class="cate">よくある質問</a></li>
-	<li><a href="http://www.tack-ic.jp/info/demo.html" class="cate">無料椅子クリーニングデモ</a></li>
-	<li><a href="http://www.tack-ic.jp/info/advice.html" class="cate">お掃除アドバイス</a></li>
-
-	</ul>	
-	<ul class="lineH">
-	<li><a href="http://www.tack-ic.jp/info/company.html" class="cate">会社概要</a></li>
-	<li><a href="http://www.tack-ic.jp/info/access.html" class="cate">アクセスマップ</a></li>
-	<li><a href="http://www.tack-ic.jp/info/link.html" class="cate">		リンクについて</a></li>
-	<li><a href="http://www.tack-ic.jp/info/privacy.html" class="cate"> プライバシーポリシー</a></li>
-	<li><a href="http://www.tack-ic.jp/info/sitemap.html" class="cate">サイトマップ</a></li>
-	</ul>	
-	
-	</div>
-</div>
-
-<a href="#pagetop" class="totop scl"><img src="/common/img/totop.gif" width="69" height="69"></a>
+<!--#include virtual="../common/include/footer.php" -->
 	
 	
 

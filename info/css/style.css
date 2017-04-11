@@ -110,3 +110,21 @@
 	margin: 0 0 2% 0;
 	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
 }
+
+#contents table.contact input[type="text"]{
+	padding: 2%
+}
+#contents input[type="submit"]{
+	padding: 10px;
+    width: 90%;
+}
+#contents table.contact td,
+#contents table.contact th{
+	display: block;
+	width: auto;
+}
+#contents img.smallPhoto{
+	float: left;
+	width: 50%;
+	margin: 1% 2% 1% 0%;
+}

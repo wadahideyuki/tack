@@ -19,6 +19,7 @@
 	$(function(){
 		//FAQ
 	$("#faq dt").click(function(){
+		$(this).toggleClass("open");
 		$(this).next().slideToggle();
 	})
 	

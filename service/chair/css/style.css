@@ -28,51 +28,6 @@
 
 
 /**作業の流れ**/
-.flowPhoto{
-}
-.flowPhoto dt{
-}
-.flowPhoto dd{
-	display: none;
-	background-color: #CE0807;
-	padding: 10px;
-	color: #fff;
-}
-	.flowPhoto dd.selected{display: block;}
-.flowPhoto dd strong{
-	display: block;
-	padding-bottom: 3px;
-	margin-bottom: 5px;
-	font-size: 16px;
-	font-weight: bold;
-	border-bottom: 1px solid #fff;
-}
-.flowThumb{
-	padding-top:11px;
-	margin: 0 -5px;
-}
-.flowThumb li{
-	width:33.3333%;
-	margin-bottom: 10px;
-	float:left;
-	text-align:center;
-}
-	.flowThumb li:last-child{}
-.flowThumb li a{
-	display:block;
-	margin: 0 5px;
-	padding:3px 0 3px 0;
-	background:#999;
-	color:#FFF;
-	text-align:center;
-}
-.flowThumb li a.selected{
-	background:#C00;
-}
-.flowThumb li img{
-	padding-bottom:5px;
-	text-align:center;
-}
 
 /**施工実績**/
 .exBox{

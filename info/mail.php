@@ -339,7 +339,7 @@ p.error_messe{
 	color:red;
 }
 </style>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="../common/js/common.js"></script>
 <link rel="canonical" href="http://www.tack-ic.jp/info/access.html"/>
 <link rel="stylesheet" href="../common/css/reset.css" type="text/css" media="all" />

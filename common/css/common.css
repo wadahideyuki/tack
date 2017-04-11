@@ -471,3 +471,26 @@ border-right:1px solid #FDB9B9;
 	padding:0 10px 15px 15px;
 
 }
+
+
+/**作業工程**/
+.flowPhoto{
+	background-color: #CE0807;
+}
+.flowPhoto dt img{
+	display: block;
+}
+.flowPhoto dd{
+	padding: 10px;
+	color: #fff;
+}
+.flowPhoto dd strong{
+	display: block;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+}
+
+

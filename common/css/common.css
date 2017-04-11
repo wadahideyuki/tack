@@ -1,6 +1,7 @@
 /**common**/
 body{
 	border-top: 2px solid rgba(229,9,9,1.00);
+	-webkit-text-size-adjust: 100%;
 }
 #wrapper{
 	margin:0 auto;
@@ -278,8 +279,9 @@ body{
 }
 #contents h3{
 	font-size:16px;
-	padding:25px 20px 5px 0px;
+	padding:0px 20px 5px 0px;
 	border-bottom:#C00 1px solid;
+	margin-top: 10px;
 	margin-bottom:10px;
 	color:#C00;
 	font-weight:bold;

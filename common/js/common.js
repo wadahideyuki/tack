@@ -4,13 +4,14 @@ $(function(){
 	$("img.hover").hover(function(){
 	 $(this).fadeTo(100,0.7);
 	},function(){
-	 $(this).fadeTo(100,1)
+	 $(this).fadeTo(100,1);
 	});
 	
 	$(".menuBtn").click(function(){
 		$("#navi").slideToggle();
 		
-	})
+	});
+
 	$(window).scroll(function(){
 		var sclNum = $(window).scrollTop();
 		if(sclNum > 100){
@@ -20,7 +21,10 @@ $(function(){
 		}
 	});
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> c1d09d48e16c433b206e9c9029284bb6a134e8e4
 
 	//ÉXÉNÉçÅ[Éã
 	$(".scl").click(function(){
@@ -29,6 +33,12 @@ $(function(){
 		var target = $(href == "#" || href == "" ? 'html' : href);
 		var position = target.offset().top;
 		$($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, speed, 'swing');
-	})
+	});
 	
+<<<<<<< HEAD
 })
+=======
+	
+	
+});
+>>>>>>> c1d09d48e16c433b206e9c9029284bb6a134e8e4

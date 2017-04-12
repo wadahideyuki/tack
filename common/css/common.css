@@ -523,7 +523,10 @@ border-right:1px solid #FDB9B9;
 	padding: 15px 10px 10px;
 	padding-bottom: 10px;
 }
-.block.service h2{margin-bottom: 10px;}
+.block.service h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
 .block.service h2 img{width: 76px;}
 .block.service ul{
 	margin: 0 -5px;

@@ -551,7 +551,6 @@ border-right:1px solid #FDB9B9;
 	line-height: 1.2;
 	border-radius: 5px;
 	border: 1px solid #ccc;
-	box-shadow: 0 3px 0 #a2a2a2;
 }
 	.block.service li a.icn01{background-image:url(../img/service_icn01.png);}
 	.block.service li a.icn02{background-image:url(../img/service_icn02.png);}

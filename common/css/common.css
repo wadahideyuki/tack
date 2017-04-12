@@ -512,6 +512,7 @@ border-right:1px solid #FDB9B9;
 }
 
 
+<<<<<<< HEAD
 
 
 #contents h3.navTtl{
@@ -534,4 +535,54 @@ border-right:1px solid #FDB9B9;
 }
 .cateNavi li a:hover{
 }
+=======
+/**サービス一覧**/
+.block.service{
+	background-color: #f2f7fa;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.block.service h2{margin-bottom: 10px;}
+.block.service h2 img{width: 76px;}
+.block.service ul{
+	margin: 0 -5px;
+	text-align: center;
+	letter-spacing: -0.4em;
+}
+.block.service li{
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 10px;
+	padding: 0 5px;
+	text-align: left;
+	letter-spacing: normal;
+	box-sizing: border-box;
+}
+.block.service li a{
+	display: block;
+	background-color: #fff;
+	background-position: 5px 6px;
+	background-repeat: no-repeat;
+	background-size: 38px auto;
+	padding: 10px 10px 10px 48px;
+	color: #000;
+	font-size: 12px;
+	line-height: 1.2;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 3px 0 #a2a2a2;
+}
+	.block.service li a.icn01{background-image:url(../img/service_icn01.png);}
+	.block.service li a.icn02{background-image:url(../img/service_icn02.png);}
+	.block.service li a.icn03{background-image:url(../img/service_icn03.png);}
+	.block.service li a.icn04{background-image:url(../img/service_icn04.png);}
+	.block.service li a.icn05{background-image:url(../img/service_icn05.png);}
+	.block.service li a.icn06{background-image:url(../img/service_icn06.png);}
+	.block.service li a.icn07{background-image:url(../img/service_icn07.png);}
+	.block.service li a.icn08{background-image:url(../img/service_icn08.png);}
+
+
+
+
+>>>>>>> 06417d78d74cef0c8b694c8e11d6587cebde0b97
 

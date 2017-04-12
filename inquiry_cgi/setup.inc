@@ -28,15 +28,16 @@ $g_FroMmailFile = './data/frommail.txt';
 # 設定
 ############################################################
 # メール送信先（メールを飛ばす先のアドレスです）複数可（例：test1@cns-inc.co.jp;test2@cns-inc.co.jp）
-$g_MailTo = 'info@tack-ic.jp';
+# $g_MailTo = 'info@tack-ic.jp';
+$g_MailTo = 'wadahideyuki@gmail.com';
 # 店舗件名（店舗に届くメールの件名です）
 $g_Subject = 'お問い合わせ';
 # 顧客件名（顧客に届くメールの件名です）
 $g_SubjectK = 'お問い合わせいただきありがとうございました';
 # メール送信後のＵＲＬ（メール送信後のＵＲＬです）
-$g_EndUrl = 'http://www.tack-ic.jp';
+$g_EndUrl = 'http://www.tack-ic.jp/sp/';
 # 戻り先のＵＲＬ
-$g_ReturnUrl = 'http://www.tack-ic.jp';
+$g_ReturnUrl = 'http://www.tack-ic.jp/sp/';
 
 # 確認画面に有無（確認画面が必要ならば「1」を、いらないならば「0」をいれてください。）
 $g_Kakunin = 1;

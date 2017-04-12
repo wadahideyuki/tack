@@ -101,7 +101,7 @@ require 'setup.inc';
 				$FILELINE .= "<table class=\"mail-form\" border=\"0\" cellspacing=\"1\">\n";
 				$FILELINE .= $strhtml;
 				$FILELINE .= "</table>\n";
-				$FILELINE .= "<p class=\"mail-input\"><input type=\"button\" value=\"　戻　る　\" onclick=\"JavaScript:history.back();\">　<input type=\"button\" value=\"　送　信　\" onclick=\"document.frm.submit();\"></p>\n";
+				$FILELINE .= "<p class=\"mail-input\"><input type=\"button\" value=\"　送　信　\" onclick=\"document.frm.submit();\"></p>\n";
 				$FILELINE .= "<form action=\"mail_table.cgi\" method=\"post\" name=\"frm\">\n" .$strvalue. "<input type=\"hidden\" name=\"check\" value=\"1\">\n</form>";
 			}
 			print $FILELINE;

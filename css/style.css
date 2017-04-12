@@ -26,13 +26,12 @@
 
 .topContent .mainLead{
 	background-color: #e50b09;
-	padding: 12px 10px;
+	padding: 10px 10px;
 	color: #fff;
-	font-size: 12px;
 }
 
 
-/**サービス一覧 common.cssに記述**/
+/**サービス一覧はcommon.cssに記述**/
 
 
 .topContent .features{
@@ -41,22 +40,21 @@
 	padding-bottom: 15px;
 	color: #fff;
 }
-.topContent .features h2{margin-bottom: 20px;}
-.topContent .features p{margin-bottom: 10px;}
-.topContent .features li{
+.topContent .features h2{margin-bottom: 15px;}
+.topContent .features p{
+	margin-bottom: 10px;
 }
+.topContent .features li{}
 	.topContent .features li + li{margin-top: 10px;}
 .topContent .features li a{display: block;}
 .topContent .features li a img{width: 100%;}
 
 
 .topContent .price{
-	padding-top: 18px;
-	padding-bottom: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
-.topContent .price h2{
-	margin-bottom: 20px;
-}
+.topContent .price h2{margin-bottom: 15px;}
 .topContent .price .acrdBox{
 	border-radius: 5px;
 	border: 1px solid #ccc;
@@ -65,8 +63,9 @@
 	.topContent .price .acrdBox + .acrdBox{margin-top: 10px;}
 .topContent .price .acrdBox dt{
 	background-color: #666;
-	padding: 12px 28px 12px 10px;
+	padding: 10px 28px 10px 10px;
 	color: #fff;
+	font-size: 13px;
 	font-weight: bold;
 	position: relative;
 }
@@ -85,20 +84,32 @@
 	}
 	.topContent .price .acrdBox dt.opn:after{background-image: url(../img/arw1_t.png);}
 .topContent .price .acrdBox dd{
+	display: none;
 	padding: 0px 10px;
 }
-	.topContent .price .acrdBox dd + dd{}
-.topContent .price .acrdBox dd li{
+.topContent .price .acrdBox dd ul{
 	display: table;
+	border-collapse: collapse;
 	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	color: #000;
+}
+.topContent .price .acrdBox dd li{
+	display: table-row;
 }
 	.topContent .price .acrdBox dd li + li{border-top: 1px dotted #b68347;}
 .topContent .price .acrdBox dd li > *{
 	display: table-cell;
 	vertical-align: top;
+	padding: 5px 0;
 }
+.topContent .price .acrdBox dd li span{}
+	.topContent .price .acrdBox.no1 dd li span{width: 90px;}
+	.topContent .price .acrdBox.no2 dd li span{width: 140px;}
+	.topContent .price .acrdBox.no3 dd li span{width: 100px;}
+.topContent .price .acrdBox dd li p{}
+	.topContent .price .acrdBox dd li p + p{padding-left: 10px;}
+.topContent .price .acrdBox dd li em{color: #f00;}
+
 
 .topContent .movie{
 	background-color: #333;
@@ -125,33 +136,35 @@
 .topContent .voice h2{
 	margin-bottom: 15px;
 }
-.topContent .voice li{
-}
+.topContent .voice li{}
 	.topContent .voice li + li{margin-top: 10px;}
 .topContent .voice li a{display: block;}
 .topContent .voice li a img{width: 100%;}
 
 
-.topContent .faq{
+.faq{
 	padding-top: 10px;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
-.topContent .faq h2{margin-bottom: 15px;}
-.topContent .faq .acrdBox{
+.faq h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.faq .acrdBox{
 	border-bottom: 1px solid #ccc;
 }
-.topContent .faq .acrdBox > *{
+.faq .acrdBox > *{
 	background-repeat: no-repeat;
 	background-size: 15px auto;
 }
-.topContent .faq .acrdBox > dt{
+.faq .acrdBox > dt{
 	background-image: url(../img/faq_q.png);
 	background-position: 10px 10px;
 	padding: 10px 25px 10px 35px;
 	border-top: 1px solid #ccc;
 	position: relative;
 }
-	.topContent .faq .acrdBox > dt:after{
+	.faq .acrdBox > dt:after{
 		content: "";
 		display: block;
 		background:url(../img/arw2_b.png) 0 0 no-repeat;
@@ -164,27 +177,26 @@
 		bottom: 0;
 		right: 10px;
 	}
-		.topContent .faq .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
-.topContent .faq .acrdBox > dd{
+		.faq .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
+.faq .acrdBox > dd{
+	display: none;
 	background-image: url(../img/faq_a.png);
 	background-position: 10px 0px;
-	padding: 0px 25px 10px 35px;
+	padding: 0px 10px 10px 35px;
 }
-.topContent .faq .btnBox{
-	padding: 10px;
-}
-.topContent .faq .btnBox a{
+.faq .btnBox{padding: 10px;}
+.faq .btnBox a{
 	display: block;
 	background-color: #fff;
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 }
-.topContent .faq .btnBox a span{
+.faq .btnBox a span{
 	display: inline-block;
 	background:url(../img/arw3_r.png) left center no-repeat;
 	background-size: auto 12px;
-	padding: 15px;
+	padding:10px 15px;
 	color: #000;
 }
 

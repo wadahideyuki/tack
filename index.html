@@ -10,6 +10,7 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="./common/js/common.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
 <link rel="canonical" href="http://www.tack-ic.jp/"/>
 <link rel="stylesheet" href="common/css/reset.css" type="text/css" media="all" />
 <link rel="stylesheet" href="common/css/common.css" type="text/css" media="all" />
@@ -33,7 +34,7 @@
 <div id="content" class="topContent">
 	<div class="main">
 		<h1><img class="W100P" src="img/main.png" alt=""></h1>
-		<a href="#"><img src="img/btn.png" alt=""></a>
+		<a href="/sp/info/inquiry.html"><img src="img/btn.png" alt=""></a>
 	</div>
 	<p class="mainLead">椅子やソファーのクリーニング専門業者として30年の実績を持つ株式会社タックでは確かな技術と信頼のサービスでお客様のインテリアを蘇らせます。</p>
 
@@ -41,14 +42,14 @@
 	<div class="block service">
 		<h2><img src="common/img/service_ttl.png" alt=""></h2>
 		<ul>
-			<li><a class="icn01" href="#">椅子<br>クリーニング</a></li>
-			<li><a class="icn02" href="#">ソファー<br>クリーニング</a></li>
-			<li><a class="icn03" href="#">カーペット<br>クリーニング</a></li>
-			<li><a class="icn04" href="#">ブラインド<br>クリーニング</a></li>
-			<li><a class="icn05" href="#">エアコン<br>クリーニング</a></li>
-			<li><a class="icn06" href="#">その他<br>クリーニング</a></li>
-			<li><a class="icn07" href="#">椅子ソファー<br>張替え</a></li>
-			<li><a class="icn08" href="#">カーペット<br>再染色サービス</a></li>
+			<li><a class="icn01" href="service/chair/">椅子<br>クリーニング</a></li>
+			<li><a class="icn02" href="service/sofa/">ソファー<br>クリーニング</a></li>
+			<li><a class="icn03" href="service/carpet/">カーペット<br>クリーニング</a></li>
+			<li><a class="icn04" href="service/braind/">ブラインド<br>クリーニング</a></li>
+			<li><a class="icn05" href="service/air/">エアコン<br>クリーニング</a></li>
+			<li><a class="icn06" href="service/other/">その他<br>クリーニング</a></li>
+			<li><a class="icn07" href="service/re_chair/">椅子ソファー<br>張替え</a></li>
+			<li><a class="icn08" href="service/re_carpet/">カーペット<br>再染色サービス</a></li>
 		</ul>
 	</div><!--/.service-->
 
@@ -57,37 +58,45 @@
 		<h2><img src="img/feature_ttl.png" width="89" alt=""></h2>
 		<p>椅子やソファーのクリーニング専門業者として30年の実績を持つ株式会社タックでは確かな技術と信頼のサービスでお客様のインテリアを蘇らせます。「買い替える前に一度クリーニングしてみたい」「思い入れのある家具を長持ちさせたい」といったご要望のあるお客様は是非お問い合わせください。</p>
 		<ul>
-			<li><a href="#"><img src="img/feature_btn1.png" alt=""></a></li>
-			<li><a href="#"><img src="img/feature_btn2.png" alt=""></a></li>
-			<li><a href="#"><img src="img/feature_btn3.png" alt=""></a></li>
+			<li><a href="point/point1/"><img src="img/feature_btn1.png" alt=""></a></li>
+			<li><a href="point/point2/"><img src="img/feature_btn2.png" alt=""></a></li>
+			<li><a href="point/point3/"><img src="img/feature_btn3.png" alt=""></a></li>
 		</ul>
 	</div><!--/.service-->
 
 
 	<div class="block price">
 		<h2><img src="img/price_ttl.png" width="194" alt=""></h2>
-		<dl class="acrdBox">
-			<dt class="opn">bbbbb</dt>
-			<dd>
+		<dl class="acrdBox no1">
+			<dt class="opn">事務椅子（肘なし）</dt>
+			<dd style="display: block;">
 				<ul>
-					<li><span>aaaa</span><p>aaaa</p></li>
-					<li><span>aaaa</span><p>aaaa</p></li>
+					<li><span>1～10脚</span><p>最低一式料金 <em>21,000</em>円</p></li>
+					<li><span>～20脚</span><p>1脚あたり <em>2.000</em>円～</p></li>
+					<li><span>～30脚</span><p>1脚あたり <em>1,900</em>円～</p></li>
+					<li><span>～40脚</span><p>1脚あたり <em>1,800</em>円～</p></li>
 				</ul>
 			</dd>
 		</dl>
-		<dl class="acrdBox">
-			<dt>bbbbb</dt>
+		<dl class="acrdBox no2">
+			<dt>ソファークリーニング</dt>
 			<dd>
 				<ul>
-					<li><span>aaaa</span><p>aaaa</p></li>
+					<li><span>布張ソファー<br>2人掛け、3人掛け</span><p><em>20,000</em>円～</p></li>
+					<li><span>布張ソファーL字</span><p><em>27,000</em>円</p></li>
+					<li><span>革張りソファー<br>2人掛け、3人掛け</span><p><em>30,000</em>円～</p></li>
+					<li><span>革張ソファー Ｌ字</span><p><em>40,000</em>円～</p></li>
 				</ul>
 			</dd>
 		</dl>
-		<dl class="acrdBox">
-			<dt>bbbbb</dt>
+		<dl class="acrdBox no3">
+			<dt>カーペットクリーニング</dt>
 			<dd>
 				<ul>
-					<li><span>aaaa</span><p>aaaa</p></li>
+					<li><span>30㎡未満</span><p>━</p><p><em>25,000</em>円</p></li>
+					<li><span>～50㎡</span><p><em>25,000</em>円</p><p><em>30,000</em>円</p></li>
+					<li><span>～100㎡ </span><p><em>30,000</em>円</p><p><em>37,000</em>円</p></li>
+					<li><span>101㎡以上</span><p>相談</p><p>相談</p></li>
 				</ul>
 			</dd>
 		</dl>
@@ -103,9 +112,9 @@
 	<div class="block voice">
 		<h2><img src="img/voice_ttl.png" width="220" alt=""></h2>
 		<ul>
-			<li><a href="#"><img src="img/voice_btn1.png" alt=""></a></li>
-			<li><a href="#"><img src="img/voice_btn2.png" alt=""></a></li>
-			<li><a href="#"><img src="img/voice_btn3.png" alt=""></a></li>
+			<li><a href="voice/voice1/"><img src="img/voice_btn1.png" alt=""></a></li>
+			<li><a href="voice/voice2/"><img src="img/voice_btn2.png" alt=""></a></li>
+			<li><a href="voice/voice3/"><img src="img/voice_btn3.png" alt=""></a></li>
 		</ul>
 	</div><!--/.price-->
 
@@ -113,7 +122,7 @@
 	<div class="faq">
 		<h2><img src="img/faq_ttl.png" width="82" alt=""></h2>
 		<dl class="acrdBox">
-			<dt class="opn">タッククリーニングシステムって何？</dt>
+			<dt>タッククリーニングシステムって何？</dt>
 			<dd>スチーム洗浄に当社独自のノウハウを追加した方法を「椅子クリーニングPLUS」と名付けて活用しています。他の業者に依頼しても落ちなかった汚れがこの方法を用いることによってキレイに再生するといった様々な実績を積み重ねている手法になります。</dd>
 			<dt>他社よりも安い？ </dt>
 			<dd>いろいろな業者がおりますのでなんとも言えませんが、当社は直接施工することにより中間マージンが発生することなく、少ない予算で最高のサービスを提供することをモットーにしています。</dd>
@@ -128,7 +137,7 @@
 			お見積りはもちろん無料です。</dd>
 		</dl>
 		<div class="btnBox">
-			<a href="#"><span>その他のよくある質問はこちら</span></a>
+			<a href="info/faq.html"><span>その他のよくある質問はこちら</span></a>
 		</div>
 	</div><!--/.price-->
 

@@ -23,6 +23,13 @@
 
 /**サービス一覧 common.cssに記述**/
 
-.topContent .main{
+.topContent .features{
+	background-color: #e50b09;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #fff;
 }
-
+.topContent .features li a{
+	display: block;
+}
+.topContent .features li a img{width: 100%;}

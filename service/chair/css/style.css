@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+.tableWidth{
+	width: 100px;
+}
 .list1{
 	letter-spacing:-0.4em;
 	margin: 0 -4px;

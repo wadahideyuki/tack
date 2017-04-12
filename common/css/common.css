@@ -261,12 +261,24 @@ body{
 
 #contents h1{
 	background:#CC0706;
-	margin:0 -10px 10px;
+	margin:0 -10px 20px;
+	position: relative;
 	padding:10px;
 	color:#FFF;
-	font-size:18px;
+	font-size:16px;
 	font-weight: bold;
 	line-height: 1.4;
+}
+#contents h1:after{
+	content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+	display: block;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top: 20px solid #CC0706;
 }
 #contents h2{
 /*	background:url(../img/h2_bg.png) no-repeat;*/
@@ -289,20 +301,23 @@ body{
 #contents .mainPhoto{
 	margin-bottom: 10px;
 	text-align: center;
+	
+    border-radius: 8px;
+    overflow: hidden;
 }
 #contents .mainTxt{
 }
 #contents .mainCopy{
 	margin-bottom: 10px;
 	color: #000;
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: bold;
+	line-height: 1.2;
 }
 #contents .mainCopy em{
 	color: #CC0706;
-	font-size: 18px;
-	font-weight:inherit;
-	line-height: 1.2;
+	font-size: 110%;
+	font-weight: bold;
 }
 #contents h2.flowTtl{
 /*	background:url(../img/flow_ttl.jpg) no-repeat 0px 0px;*/
@@ -350,6 +365,7 @@ body{
 	border-left:none;
 }
 #contents h2.hiketsu em{
+	text-align: center;
 	display: block;
 	background-color: #B58348;
 	margin:0 -5px 5px;
@@ -495,4 +511,27 @@ border-right:1px solid #FDB9B9;
 	border-bottom: 1px solid #fff;
 }
 
+
+
+
+#contents h3.navTtl{
+	background: #EEE;
+	color: #000;
+	padding: 1.5%;
+	border:none;
+	margin: 15px 0 0 0 ;
+}
+.cateNavi li{
+	background:url(../img/arrow.png) no-repeat right center;
+	border-bottom: 1px dotted #CCC;
+	padding: 2% 0;
+}
+
+.cateNavi li a{
+	padding:5px 0 5px 0px;
+	display:block;
+	line-height:1.4em;
+}
+.cateNavi li a:hover{
+}
 

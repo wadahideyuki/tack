@@ -40,12 +40,8 @@
 	padding-bottom: 15px;
 	color: #fff;
 }
-.topContent .features h2{
-	margin-bottom: 20px;
-}
-.topContent .features p{
-	margin-bottom: 10px;
-}
+.topContent .features h2{margin-bottom: 20px;}
+.topContent .features p{margin-bottom: 10px;}
 .topContent .features li{
 }
 	.topContent .features li + li{margin-top: 10px;}
@@ -63,33 +59,137 @@
 .topContent .price .acrdBox{
 	border-radius: 5px;
 	border: 1px solid #ccc;
+	overflow: hidden;
 }
 	.topContent .price .acrdBox + .acrdBox{margin-top: 10px;}
 .topContent .price .acrdBox dt{
 	background-color: #666;
-	padding: 12px 10px;
+	padding: 12px 28px 12px 10px;
 	color: #fff;
 	font-weight: bold;
+	position: relative;
 }
+	.topContent .price .acrdBox dt:after{
+		content: "";
+		display: block;
+		background:url(../img/arw1_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 18px;
+		height: 18px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+	.topContent .price .acrdBox dt.opn:after{background-image: url(../img/arw1_t.png);}
 .topContent .price .acrdBox dd{
-	margin-left: 20px;
-	margin-right: 20px;
+	padding: 0px 10px;
 }
-	.topContent .price .acrdBox dd + dd{border-top: 1px dotted #b68347;}
-
+	.topContent .price .acrdBox dd + dd{}
+.topContent .price .acrdBox dd li{
+	display: table;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+	.topContent .price .acrdBox dd li + li{border-top: 1px dotted #b68347;}
+.topContent .price .acrdBox dd li > *{
+	display: table-cell;
+	vertical-align: top;
+}
 
 .topContent .movie{
 	background-color: #333;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+.topContent .movie h2{
+	margin-bottom: 15px;
+}
+.topContent .movie .movBox{
+	height: 170px;
+}
+.topContent .movie .movBox iframe{
+	width: 100%;
+	height: 100%;
 }
 
 
 .topContent .voice{
 	background-color: #f2f7fa;
+	padding-top: 20px;
+	padding-bottom: 25px;
 }
+.topContent .voice h2{
+	margin-bottom: 15px;
+}
+.topContent .voice li{
+}
+	.topContent .voice li + li{margin-top: 10px;}
+.topContent .voice li a{display: block;}
+.topContent .voice li a img{width: 100%;}
 
 
 .topContent .faq{
+	padding-top: 10px;
+	padding-bottom: 25px;
 }
+.topContent .faq h2{margin-bottom: 15px;}
+.topContent .faq .acrdBox{
+	border-bottom: 1px solid #ccc;
+}
+.topContent .faq .acrdBox > *{
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+}
+.topContent .faq .acrdBox > dt{
+	background-image: url(../img/faq_q.png);
+	background-position: 10px 10px;
+	padding: 10px 25px 10px 35px;
+	border-top: 1px solid #ccc;
+	position: relative;
+}
+	.topContent .faq .acrdBox > dt:after{
+		content: "";
+		display: block;
+		background:url(../img/arw2_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 15px;
+		height: 15px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+		.topContent .faq .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
+.topContent .faq .acrdBox > dd{
+	background-image: url(../img/faq_a.png);
+	background-position: 10px 0px;
+	padding: 0px 25px 10px 35px;
+}
+.topContent .faq .btnBox{
+	padding: 10px;
+}
+.topContent .faq .btnBox a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow:0 3px 0  #a2a2a2;
+}
+.topContent .faq .btnBox a span{
+	display: inline-block;
+	background:url(../img/arw3_r.png) left center no-repeat;
+	background-size: auto 12px;
+	padding: 15px;
+	color: #000;
+}
+
+
+
 
 
 

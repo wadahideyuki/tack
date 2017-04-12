@@ -4,6 +4,23 @@
 	margin:0 0 20px 0;	
 	
 }
+.mainTxt{
+	padding-left: 70px;
+	position: relative;
+	margin-bottom: 10px;
+	
+}
+.mainTxt:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: -5px;
+	background: url(../img/point_txt.png) no-repeat left top;
+	background-size: contain;
+}
 #contents img.size40{
 	width: 40%;
 }

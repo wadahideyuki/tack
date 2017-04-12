@@ -269,10 +269,22 @@ body{
 	background:#CC0706;
 	margin:0 -10px 10px;
 	padding:10px;
+	margin-bottom: 20px;
 	color:#FFF;
-	font-size:18px;
+	font-size:16px;
 	font-weight: bold;
 	line-height: 1.4;
+}
+#contents h1:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #CC0706;
 }
 #contents h2{
 /*	background:url(../img/h2_bg.png) no-repeat;*/
@@ -295,18 +307,21 @@ body{
 #contents .mainPhoto{
 	margin-bottom: 10px;
 	text-align: center;
+	border-radius: 10px;
+	overflow: hidden;
 }
 #contents .mainTxt{
 }
 #contents .mainCopy{
 	margin-bottom: 10px;
 	color: #000;
-	font-size: 16px;
+	font-size: 22px;
+	line-height: 1.2;
 	font-weight: bold;
 }
 #contents .mainCopy em{
 	color: #CC0706;
-	font-size: 18px;
+	font-size: 120%;
 	font-weight:inherit;
 	line-height: 1.2;
 }

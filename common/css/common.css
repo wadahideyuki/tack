@@ -6,6 +6,12 @@ body{
 #wrapper{
 	margin:0 auto;
 }
+.footNavi{
+	background: #f2f7fa;
+}
+.footNavi h2{
+	text-align: center;
+}
 .totop{
 	position:fixed;
 	bottom:0px;
@@ -540,6 +546,28 @@ border-right:1px solid #FDB9B9;
 	.block.service li a.icn06{background-image:url(../img/service_icn06.png);}
 	.block.service li a.icn07{background-image:url(../img/service_icn07.png);}
 	.block.service li a.icn08{background-image:url(../img/service_icn08.png);}
+
+
+#contents h3.navTtl{
+    background: #EEE;
+    color: #000;
+    padding: 1.5%;
+    border:none;
+    margin: 15px 0 0 0 ;
+}
+.cateNavi li{
+    background:url(../img/arrow.png) no-repeat right center;
+    border-bottom: 1px dotted #CCC;
+    padding: 2% 0;
+}
+
+.cateNavi li a{
+    padding:5px 0 5px 0px;
+    display:block;
+    line-height:1.4em;
+}
+.cateNavi li a:hover{
+}
 
 
 

@@ -142,29 +142,29 @@
 .topContent .voice li a img{width: 100%;}
 
 
-.faq{
+.faqZone{
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
-.faq h2{
+.faqZone h2{
 	margin-bottom: 15px;
 	text-align: center;
 }
-.faq .acrdBox{
+.faqZone .acrdBox{
 	border-bottom: 1px solid #ccc;
 }
-.faq .acrdBox > *{
+.faqZone .acrdBox > *{
 	background-repeat: no-repeat;
 	background-size: 15px auto;
 }
-.faq .acrdBox > dt{
+.faqZone .acrdBox > dt{
 	background-image: url(../img/faq_q.png);
 	background-position: 10px 10px;
 	padding: 10px 25px 10px 35px;
 	border-top: 1px solid #ccc;
 	position: relative;
 }
-	.faq .acrdBox > dt:after{
+	.faqZone .acrdBox > dt:after{
 		content: "";
 		display: block;
 		background:url(../img/arw2_b.png) 0 0 no-repeat;
@@ -177,22 +177,22 @@
 		bottom: 0;
 		right: 10px;
 	}
-		.faq .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
-.faq .acrdBox > dd{
+		.faqZone .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
+.faqZone .acrdBox > dd{
 	display: none;
 	background-image: url(../img/faq_a.png);
 	background-position: 10px 0px;
 	padding: 0px 10px 10px 35px;
 }
-.faq .btnBox{padding: 10px;}
-.faq .btnBox a{
+.faqZone .btnBox{padding: 10px;}
+.faqZone .btnBox a{
 	display: block;
 	background-color: #fff;
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 }
-.faq .btnBox a span{
+.faqZone .btnBox a span{
 	display: inline-block;
 	background:url(../img/arw3_r.png) left center no-repeat;
 	background-size: auto 12px;

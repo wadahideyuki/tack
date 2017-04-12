@@ -13,7 +13,16 @@
 
 /* 各コンテンツ */
 .topContent .main{
+	position: relative;
 }
+.topContent .main a{
+	width: 59.375%;
+	position: absolute;
+	top: 62%;
+	left: 36%;
+}
+	.topContent .main a img{width: 100%;}
+
 
 .topContent .mainLead{
 	background-color: #e50b09;
@@ -21,15 +30,67 @@
 	color: #fff;
 }
 
+
 /**サービス一覧 common.cssに記述**/
+
 
 .topContent .features{
 	background-color: #e50b09;
 	padding-top: 15px;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 	color: #fff;
 }
-.topContent .features li a{
-	display: block;
+.topContent .features h2{
+	margin-bottom: 20px;
 }
+.topContent .features p{
+	margin-bottom: 10px;
+}
+.topContent .features li{
+}
+	.topContent .features li + li{margin-top: 10px;}
+.topContent .features li a{display: block;}
 .topContent .features li a img{width: 100%;}
+
+
+.topContent .price{
+	padding-top: 18px;
+	padding-bottom: 13px;
+}
+.topContent .price h2{
+	margin-bottom: 20px;
+}
+.topContent .price .acrdBox{
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+	.topContent .price .acrdBox + .acrdBox{margin-top: 10px;}
+.topContent .price .acrdBox dt{
+	background-color: #666;
+	padding: 12px 10px;
+	color: #fff;
+	font-weight: bold;
+}
+.topContent .price .acrdBox dd{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+	.topContent .price .acrdBox dd + dd{border-top: 1px dotted #b68347;}
+
+
+.topContent .movie{
+	background-color: #333;
+}
+
+
+.topContent .voice{
+	background-color: #f2f7fa;
+}
+
+
+.topContent .faq{
+}
+
+
+
+

@@ -17,13 +17,20 @@
 	padding:0 10px 20px 10px;
 }
 .brandList ul{
-	float:left;
-	width:230px;
 	font-size:12px;
+	
+      display: -webkit-flex;
+      display: flex;
+	
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .brandList ul li{
 	padding:10px 0 10px 0;
 	border-bottom:dotted 1px #CCC;
+    
+    width: 50%;
+    background: none;
 }
 
 .flowBox{
@@ -106,8 +113,7 @@
 }
 
 .boxTiming{
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 0px;
 }
 .boxTiming dl{
 	background-color: #ECE8E0;

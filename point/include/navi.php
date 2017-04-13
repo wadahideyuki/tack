@@ -1,4 +1,4 @@
-<h3 class="navTtl">お客さまの声</h3>
+<h3 class="navTtl">タックの特徴</h3>
 			<ul class="pointNavi">
 			<li><a href="/sp/point/point1/">Point1<br>
 <span class="fontB">椅子ソファークリーニングの専門家としてノウハウがあります！</span></a></li>

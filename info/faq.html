@@ -18,16 +18,17 @@
 	
 	$(function(){
 		//FAQ
-	$("#faq dt").click(function(){
-		$(this).toggleClass("open");
+	$(".acrdBox dt").click(function(){
+		$(this).toggleClass("opn");
 		$(this).next().slideToggle();
+		return false;
 	})
 	
 	})
 	
 	</script>
 </head>
-<body id="faq">
+<body id="">
 <div id="wrapper">	
 
 <!--head-->
@@ -51,7 +52,8 @@
 	<div id="contents">
 		<div id="contentsInner">
 			<h1>皆様からよく頂くご質問に答えさせて頂きます</h1>
-			<dl>
+			<div class="faqZone">
+		<dl class="acrdBox">
 				<dt>タッククリーニングシステムって何？ </dt>
 				<dd>スチーム洗浄に当社独自のノウハウを追加した方法を「椅子クリーニングPLUS」と名付けて活用しています。他の業者に依頼しても落ちなかった汚れがこの方法を用いることによってキレイに再生するといった様々な実績を積み重ねている手法になります。				</dd>
 				<dt>他社よりも安い？ </dt>

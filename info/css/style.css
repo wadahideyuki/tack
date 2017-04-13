@@ -11,41 +11,66 @@
 #faq #contents h1{
 	margin-bottom: 0px;
 }
-#faq dl{
-	padding:0px 0;
-	margin: 0 -10px 10px;
+
+.faqZone{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin: 0 -10px;
 }
-#faq dt{
-	font-size:16px;
-	font-weight:bold;
-	padding:3% 40px 3% 3%;
-	border-top: 1px solid #CCC;
+.faqZone h2{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.faqZone .acrdBox{
+	border-bottom: 1px solid #ccc;
+}
+.faqZone .acrdBox > *{
+	background-repeat: no-repeat;
+	background-size: 15px auto;
+}
+.faqZone .acrdBox > dt{
+	background-image: url(../../img/faq_q.png);
+	background-position: 10px 10px;
+	padding: 10px 25px 10px 35px;
+	border-top: 1px solid #ccc;
 	position: relative;
-	background-color: #EEE;
 }
-#faq dt:after{
-	content: "";
-	position: absolute;
-	right: 8px;
-	top: 17px;
-	display: inline-block;
-	width: 20px;
-    height: 13px;
-    background-image: url(../../common/img/accordion_red.png);
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: 20px;
-	
-}
-#faq dt.open:after{
-	background-position:left top;
-	
-}
-#faq dd{
-	padding:3%;
+	.faqZone .acrdBox > dt:after{
+		content: "";
+		display: block;
+		background:url(../../img/arw2_b.png) 0 0 no-repeat;
+		background-size: contain;
+		width: 15px;
+		height: 15px;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 10px;
+	}
+		.faqZone .acrdBox > dt.opn:after{background-image: url(../../img/arw2_t.png);}
+.faqZone .acrdBox > dd{
 	display: none;
-	
+	background-image: url(../img/faq_a.png);
+	background-position: 10px 0px;
+	padding: 0px 10px 10px 35px;
 }
+.faqZone .btnBox{padding: 10px;}
+.faqZone .btnBox a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.faqZone .btnBox a span{
+	display: inline-block;
+	background:url(../../img/arw3_r.png) left center no-repeat;
+	background-size: auto 12px;
+	padding:10px 15px;
+	color: #000;
+}
+
 #contents .contact td,#contents .contact th{
 	padding:8px;
 }

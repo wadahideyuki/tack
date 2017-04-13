@@ -8,7 +8,7 @@ $(function(){
 	});
 	
 	$(".menuBtn").click(function(){
-		$("#navi").slideToggle();
+		$("#navi").slideToggle("fast");
 		
 	});
 

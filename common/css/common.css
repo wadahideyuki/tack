@@ -369,11 +369,13 @@ body{
 	color:#960;
 	font-size: 16px;
 	border-left:none;
+	text-align: center;
 }
 #contents h2.hiketsu em{
 	display: block;
 	background-color: #B58348;
 	margin:0 -5px 5px;
+	text-align: center;
 	padding: 5px;
 	color: #fff;
 	font-size: 20px;

@@ -22,6 +22,7 @@
 	</li>
 	<li class="flow"><a href="/sp/info/flow.html">お仕事の流れ</a></li>
 	<li class="voice"><a href="/sp/voice/voice1/">お客様の声</a></li>
+	<li class="movie"><a href="/sp/movie/">動画</a></li>
 	<li class="qa"><a href="/sp/info/faq.html">よくある質問</a></li>
 	<li class="company"><a href="/sp/info/company.html">会社概要</a></li>
 	<li class="voice"><a href="/sp/info/advice.html">お掃除アドバイス</a></li>

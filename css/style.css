@@ -1,208 +1,165 @@
 @charset "utf-8";
 /* CSS Document */
-.topContent .block{
-	padding-left: 10px;
-	padding-right: 10px;
+
+#index{
+	padding:3px 0 0 0;
+	background:url(../img/bg.jpg) repeat-x;
 }
-.topContent h2{
-	text-align: center;
+#mainImage{
+	background:url(../img/main.jpg);
+	height:444px;
+	position:relative;
+	width:960px;
+	margin: 0 auto;
+}
+#mainImage .copy{
+	position:absolute;
+	left: 389px;
+	top: 15px;
+}
+
+#mainImage .btn{
+	position:absolute;
+	left: 400px;
+	top: 328px;
+}
+#mainNavi{
+	background:url(../img/service_navi_bg.jpg)  center;
+	height:77px;
+	
+}
+#mainNavi .mainNaviInner{
+	width:1100px;
+	margin:0 auto;
+}
+#mainNavi .mainNaviInner ul{
+	padding-left:110px;
+}
+#mainNavi li{
+	float:left;
+	margin:12px 0 0 0;
+	border-left:#C00 1px solid;
+	border-right:#F33 1px solid;
+}
+
+#index #content{
+	width:960px;
+	margin:0 auto;
 }
 
 
-
-
-/* 各コンテンツ */
-.topContent .main{
-	position: relative;
+#featureBlock li{
+	background:url(../img/feature_bg.jpg) bottom;
+	width:320px;
+	float:left;
+	padding:0 0 25px 0;
 }
-.topContent .main a{
-	width: 59.375%;
-	position: absolute;
-	top: 62%;
-	left: 36%;
-}
-	.topContent .main a img{width: 100%;}
-
-
-.topContent .mainLead{
-	background-color: #e50b09;
-	padding: 10px 10px;
-	color: #fff;
+#featureBlock li p{
+	padding:10px 20px 10px 20px;
 }
 
-
-/**サービス一覧はcommon.cssに記述**/
-
-
-.topContent .features{
-	background-color: #e50b09;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	color: #fff;
+#priceBlock h2{
+	position:relative;
+	padding-top:20px;
 }
-.topContent .features h2{margin-bottom: 15px;}
-.topContent .features p{
-	margin-bottom: 10px;
+#priceBlock h2 span{
+	position:absolute;
+	left: 505px;
+	top: 64px;
+	font-size:12px;
 }
-.topContent .features li{}
-	.topContent .features li + li{margin-top: 10px;}
-.topContent .features li a{display: block;}
-.topContent .features li a img{width: 100%;}
-
-
-.topContent .price{
-	padding-top: 15px;
-	padding-bottom: 15px;
+#priceBlock  h3{
+	text-align:center;
+	background-color:#cca87e;
+	border-radius:20px;
+	color:#FFF;
+	margin-bottom:15px;
+	padding:5px;
 }
-.topContent .price h2{margin-bottom: 15px;}
-.topContent .price .acrdBox{
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	overflow: hidden;
-}
-	.topContent .price .acrdBox + .acrdBox{margin-top: 10px;}
-.topContent .price .acrdBox dt{
-	background-color: #666;
-	padding: 10px 28px 10px 10px;
-	color: #fff;
-	font-size: 13px;
-	font-weight: bold;
-	position: relative;
-}
-	.topContent .price .acrdBox dt:after{
-		content: "";
-		display: block;
-		background:url(../img/arw1_b.png) 0 0 no-repeat;
-		background-size: contain;
-		width: 18px;
-		height: 18px;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 10px;
-	}
-	.topContent .price .acrdBox dt.opn:after{background-image: url(../img/arw1_t.png);}
-.topContent .price .acrdBox dd{
-	display: none;
-	padding: 0px 10px;
-}
-.topContent .price .acrdBox dd ul{
-	display: table;
-	border-collapse: collapse;
-	width: 100%;
-	color: #000;
-}
-.topContent .price .acrdBox dd li{
-	display: table-row;
-}
-	.topContent .price .acrdBox dd li + li{border-top: 1px dotted #b68347;}
-.topContent .price .acrdBox dd li > *{
-	display: table-cell;
-	vertical-align: top;
-	padding: 5px 0;
-}
-.topContent .price .acrdBox dd li span{}
-	.topContent .price .acrdBox.no1 dd li span{width: 90px;}
-	.topContent .price .acrdBox.no2 dd li span{width: 140px;}
-	.topContent .price .acrdBox.no3 dd li span{width: 100px;}
-.topContent .price .acrdBox dd li p{}
-	.topContent .price .acrdBox dd li p + p{padding-left: 10px;}
-.topContent .price .acrdBox dd li em{color: #f00;}
-
-
-.topContent .movie{
-	background-color: #333;
-	padding-top: 15px;
-	padding-bottom: 25px;
-}
-.topContent .movie h2{
-	margin-bottom: 15px;
-}
-.topContent .movie .movBox{
-	height: 170px;
-}
-.topContent .movie .movBox iframe{
-	width: 100%;
-	height: 100%;
+#priceBlock .col3Box{
+	padding:10px 0  0 40px;
+	
 }
 
-
-.topContent .voice{
-	background-color: #f2f7fa;
-	padding-top: 20px;
-	padding-bottom: 25px;
+#priceBlock .col3{
+	width:280px;
+	float:left;
+	margin-right:20px;
+	
 }
-.topContent .voice h2{
-	margin-bottom: 15px;
+#priceBlock .priceBg{
+	background:url(../img/price_bg.jpg) bottom;
+	padding:0 0 60px 0;
 }
-.topContent .voice li{}
-	.topContent .voice li + li{margin-top: 10px;}
-.topContent .voice li a{display: block;}
-.topContent .voice li a img{width: 100%;}
-
-
-.faqZone{
-	padding-top: 10px;
-	padding-bottom: 15px;
+#priceBlock table{
+	margin-left:5px;
+	width:268px;
+	margin-top:10px;
 }
-.faqZone h2{
-	margin-bottom: 15px;
-	text-align: center;
+#priceBlock th{
+	border:1px solid #CCC;
+	background:#EEE;
+	padding:5px;
+	font-size:12px;
+	text-align:center;
 }
-.faqZone .acrdBox{
-	border-bottom: 1px solid #ccc;
+#priceBlock td{
+	border:1px solid #CCC;
+	text-align:center;
+	padding:5px;
+	font-size:12px;
 }
-.faqZone .acrdBox > *{
-	background-repeat: no-repeat;
-	background-size: 15px auto;
+#priceBlock td em{
+	color:#C00;
 }
-.faqZone .acrdBox > dt{
-	background-image: url(../img/faq_q.png);
-	background-position: 10px 10px;
-	padding: 10px 25px 10px 35px;
-	border-top: 1px solid #ccc;
-	position: relative;
+#voiceBlock .voiceBox{
+	position:relative;
+	background:url(../img/voice_bg_top.jpg) repeat-y top right;
 }
-	.faqZone .acrdBox > dt:after{
-		content: "";
-		display: block;
-		background:url(../img/arw2_b.png) 0 0 no-repeat;
-		background-size: contain;
-		width: 15px;
-		height: 15px;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 10px;
-	}
-		.faqZone .acrdBox > dt.opn:after{background-image: url(../img/arw2_t.png);}
-.faqZone .acrdBox > dd{
-	display: none;
-	background-image: url(../img/faq_a.png);
-	background-position: 10px 0px;
-	padding: 0px 10px 10px 35px;
+#voiceBlock .photo{
+	float:left;
+	width:270px;
 }
-.faqZone .btnBox{padding: 10px;}
-.faqZone .btnBox a{
-	display: block;
-	background-color: #fff;
-	text-align: center;
-	border: 1px solid #ccc;
-	border-radius: 5px;
+#voiceBlock .comment{
+	margin-left:270px;
+	padding-top:15px;
 }
-.faqZone .btnBox a span{
-	display: inline-block;
-	background:url(../img/arw3_r.png) left center no-repeat;
-	background-size: auto 12px;
-	padding:10px 15px;
-	color: #000;
+#voiceBlock .commentInner{
+	background:url(../img/voice_bg_mig.jpg) no-repeat bottom;
+	padding:0 15px 15px 30px;
 }
-
-
-
-
-
-
-
+#voiceBlock h3{
+	padding:0 0 18px 15px;
+}
+#voiceBlock p{
+	padding:0 30px 15px 0;
+}
+#qaBlock{
+	background:#cd0807;
+	background:url(../img/qa_bg.jpg) repeat-y;
+}
+#qaBlock .q1{
+	background:url(../img/qa_txt_01.jpg) no-repeat;
+}
+#qaBlock .q2{
+	background:url(../img/qa_txt_02.jpg) no-repeat;
+}
+#qaBlock .q3{
+	background:url(../img/qa_txt_03.jpg) no-repeat;
+}
+#qaBlock .q4{
+	background:url(../img/qa_txt_04.jpg) no-repeat;
+}
+#qaBlock .q5{
+	background:url(../img/qa_txt_05.jpg) no-repeat;
+}
+#qaBlock p{
+	background:url(../img/qa_txt_btm.jpg) no-repeat bottom;
+	padding:45px 30px 50px 330px;
+	font-size:14px;
+}
+#qaBlock .alignR{
+	padding:10px;
+	background:#cd0807;
+	margin:0 5px 0 8px;
+}

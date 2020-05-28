@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.limitedTime{
+  margin-top: 15px;
+}
+
+.limitedTime img{
+  width: 100%;
+}

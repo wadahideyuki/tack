@@ -27,3 +27,11 @@
 	padding-bottom:5px;
 	text-align:center;
 }
+
+.limitedTime{
+  margin-top: 20px;
+}
+
+.limitedTime img{
+  width: 100%;
+}

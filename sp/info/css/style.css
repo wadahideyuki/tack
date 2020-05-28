@@ -32,6 +32,10 @@
   max-width: 100%;
   width: 200px;
 }
+#contents form.tbl2 td input[type="file"]{
+margin-bottom: 5px;
+  display: block;
+}
 .kindbox label{
   display: block;
   padding: 5px 0 10px 0;

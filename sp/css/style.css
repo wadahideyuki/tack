@@ -110,6 +110,14 @@
 	.topContent .price .acrdBox dd li p + p{padding-left: 10px;}
 .topContent .price .acrdBox dd li em{color: #f00;}
 
+.topContent .limited{
+  margin-bottom: 15px;
+}
+
+.topContent .limited img{
+  width: 100%;
+}
+
 
 .topContent .movie{
 	background-color: #333;
@@ -215,7 +223,39 @@
 	color: #000;
 }
 
+/**insta**/
+.instaBlock{
+  margin-top: 25px;
+  padding: 25px 0 30px;
+  background: #eee;
+}
+.instaBlock h2{
+  width: 80%;
+  margin: 0 auto;
+}
+.instaBlock h2 img{
+  width: 100%;
+}
+.instaBlock #instafeed{
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.instaBlock #instafeed li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 25px;
+}
 
+.instaBlock #instafeed li span img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
 
 
 

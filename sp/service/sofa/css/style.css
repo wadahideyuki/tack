@@ -24,3 +24,9 @@
 	border:#C00 2px solid;
 	border-radius:5px;
 }
+.limitedTime{
+  margin-top: 15px;
+}
+.limitedTime img{
+  width: 100%;
+}

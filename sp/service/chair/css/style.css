@@ -45,3 +45,10 @@
 	letter-spacing: normal;
 	box-sizing: border-box;
 }
+/**期間限定**/
+.limitedTime{
+  margin-top: 15px;
+}
+.limitedTime img{
+  width: 100%;
+}

@@ -47,6 +47,9 @@
 	margin:0 auto;
 }
 
+.movieBox .limitedTime{
+  margin-bottom: 30px;
+}
 
 #featureBlock li{
 	background:url(../img/feature_bg.jpg) bottom;
@@ -162,4 +165,32 @@
 	padding:10px;
 	background:#cd0807;
 	margin:0 5px 0 8px;
+}
+.instaBlock{
+  margin-top: 50px;
+  margin-bottom: -10px;
+  padding: 50px 0 70px;
+  background: #eee;
+}
+.instaBlock h2{
+  text-align: center;
+}
+.instaBlock #instafeed{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.instaBlock #instafeed li {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.instaBlock #instafeed li span img{
+  width: 100%;
 }

@@ -44,6 +44,10 @@
 	padding:8px;
 }
 
+#contents .contact td input[type="file"]{
+margin-top: 5px;
+}
+
 #flow .flowBox{
 	background:url(../img/flow_img.gif) no-repeat left top;
 	padding-left:100px;

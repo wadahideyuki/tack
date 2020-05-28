@@ -50,3 +50,11 @@
 	text-align:center;
 	padding:10px 6px 0 6px; 
 }
+
+/**期間限定**/
+.limitedTime{
+  margin-top: 15px;
+}
+.limitedTime img{
+  width: 100%;
+}
